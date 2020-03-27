@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <MovieContextProvider>
         <Navbar />
+        <MovieForm />
         <MovieList />
       </MovieContextProvider>
     </div>
